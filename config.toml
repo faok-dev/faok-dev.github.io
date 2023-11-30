@@ -1,3 +1,4 @@
+publishDir="docs"
 [module]
   [module.hugoVersion]
     extended = false
