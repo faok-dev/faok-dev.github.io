@@ -2877,8 +2877,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #fff;
+			color: #000;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2902,7 +2902,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header p {
-				color: #a6e0db;
+				color: #000;
 			}
 
 			.wrapper.style1 header.major h2, .wrapper.style1 header.major h3, .wrapper.style1 header.major h4, .wrapper.style1 header.major h5, .wrapper.style1 header.major h6 {
@@ -2910,7 +2910,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #000;
 			}
 
 			.wrapper.style1 label {
@@ -3654,14 +3654,14 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 5.75em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
 			z-index: 1;
 		}
 
-			#banner h2:before, #banner h2:after {
+			/* #banner h2:before, #banner h2:after {
 				-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
 				-ms-transition: width 0.85s ease;
@@ -3676,7 +3676,7 @@ input, select, textarea {
 				height: 2px;
 				position: absolute;
 				width: 100%;
-			}
+			} */
 
 			#banner h2:before {
 				top: 0;

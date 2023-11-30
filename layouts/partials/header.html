@@ -36,6 +36,8 @@
 				<!-- Header -->
           <header id="header"{{ if .Page.IsHome }} class="alt"{{ end }}>
             <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+				{{ if .Site.Params.menu }}
+				
 						<nav id="nav">
 							<ul>
 								<li class="special">
@@ -50,4 +52,5 @@
 								</li>
 							</ul>
 						</nav>
+						{{ end }}
 					</header>
